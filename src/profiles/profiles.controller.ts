@@ -10,6 +10,7 @@ import {
   ParseUUIDPipe,
   Post,
   Put,
+  ValidationPipe,
 } from '@nestjs/common';
 import type { UUID } from 'crypto';
 import { CreateProfileDto } from './dto/create-profile.dto';
